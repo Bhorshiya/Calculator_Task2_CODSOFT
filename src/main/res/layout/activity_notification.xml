@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#CC8EE6">
+    <TextView
+        android:id="@+id/notificationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Title"
+        android:textSize="25sp"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+        android:shadowRadius="30"
+        android:shadowColor="@color/purple_700"
+        android:padding="8dp" />
+    <TextView
+        android:id="@+id/notificationMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is task 2 by codsoft"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_red_light"
+        android:padding="8dp" />
+    <ImageView
+        android:id="@+id/notificationImage"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/baseline_notifications_24"
+        android:padding="8dp"
+        android:outlineSpotShadowColor="@color/purple_700" />
+
+</LinearLayout>
